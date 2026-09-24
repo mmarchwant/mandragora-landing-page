@@ -15,6 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
       langLabel.textContent = lang === 'en' ? '🇵🇱 PL' : '🇬🇧 EN';
     }
 
+    // Update app preview mockup based on language
+    const previewImg = document.getElementById('app-preview-img');
+    if (previewImg) {
+      previewImg.src = lang === 'pl' ? 'assets/bg_pl.png' : 'assets/bg_en.png';
+    }
+
     // Translate all elements with data-en & data-pl attributes
     const translatableElements = document.querySelectorAll('[data-en][data-pl]');
     translatableElements.forEach(el => {
