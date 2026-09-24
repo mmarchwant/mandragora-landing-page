@@ -8,7 +8,7 @@ Hosted on GitHub Pages.
 
 - **Botanical Responsive Design:** Clean aesthetic using custom typography, modern cards, and CSS variables.
 - **Bilingual (English & Polish):** Toggle dynamically between English and Polish with language preference saved in `localStorage`.
-- **Capability Presentation:** Details plant and room organization, flexible care schedules, propagation tracking, visual diary, privacy guarantees, and optional bring-your-own-key AI integration.
+- **Capability Presentation:** Details plant and room organization, flexible care schedules, propagation tracking, visual diary, and privacy guarantees.
 - **Privacy Policy Link:** Direct links to the hosted privacy policy page at [https://mmarchwant.github.io/mandragora-privacy/](https://mmarchwant.github.io/mandragora-privacy/).
 - **GitHub Pages Compatible:** Includes `.nojekyll` file to bypass Jekyll build step.
 
